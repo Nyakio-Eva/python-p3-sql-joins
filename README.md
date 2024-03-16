@@ -347,6 +347,11 @@ will need to use them. You can read more about these other join types
 [here](https://www.w3schools.com/sql/sql_join.asp), if you're curious!
 
 ***
+SELECT column_name(s)
+FROM table1
+FULL OUTER JOIN table2
+ON table1.column_name = table2.column_name
+WHERE condition;
 
 ## Conclusion
 
